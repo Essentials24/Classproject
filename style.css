@@ -3,11 +3,22 @@
     font-family: 'Dm Sans', sans-serif;
     
 }
+
+
 /* styling */
+
+.next {
+    margin-top: 50px;
+}
+
+.next .fa-backward {
+    float: right;
+    
+}
 
 body, .index3, .index4, .index5 {
     background-color: #FFFFFF;
-    margin: 20px;
+    /* margin: 20px; */
     position: relative; 
 }
 
@@ -28,7 +39,7 @@ body, .index3, .index4, .index5 {
     text-align: center;   
 }
 
-.nav-link ul li, .nav-link2 ul li, .nav-link3 ul li{
+.nav-link ul li, .nav-link2 ul li,  .nav-link22 ul li, .nav-link3 ul li{
     list-style: none;
     margin-right: 20px;
     float: left;
@@ -285,37 +296,12 @@ padding-left: 15px;
 /* header 3 styling */
 
 .index3 {
-  margin: 30px 90px;
   position: relative;
-  box-sizing: border-box;
 }
-
-.myheader2 {
-    margin: auto auto 50px -52px;
-}
-
 /* styling the hero-section */
 
-.row {
-    display: flex;
-}
 
-.column {
-    width:50%;
-    padding: 10px;
-}
-
-.column1 {
-    width: 50%;
-    padding: 10px;
-}
-
-.nav-link2 ul li input  {
-    margin: -12px -35px auto 1px;
-    
-}
-
-strong{
+.logo3{
     color: #1E0E62;
     font-size: 20px;
     font-family: 'DM Sans', sans-serif;
@@ -324,12 +310,12 @@ strong{
 }
 
 .column h1 {
-    color: #1E0E62;
+color: #1E0E62;
 font-size: 42px;
 font-family: 'DM Sans', sans-serif;
 font-weight: 700;
 line-height: 52px;
-margin-left: -7px;
+padding-bottom: 50px;
 }
 
 .input2 {
@@ -365,32 +351,25 @@ margin-left: -7px;
     font-size: 16px;
     font-family: "DM Sans";
     font-weight: 400; 
+    margin-bottom: 30px;
 }
 
-.column1{ 
-    margin-left: 300px;
-}
-
-
-.fa-solid {
-  display: none !important;
-}
 
 
 .img2 p{
    color: rgba(66, 62, 62, 0.612);
   margin-right: 190px;
+  margin-top: 30px;
 }
 
 .img2 {
-    text-align: center;
     position: relative;
     
 }
 
- #two {
+.img2 #two {
     position: absolute;
-    bottom: 45%;
+    bottom: 55%;
     left: 46%;
 }
 
@@ -403,10 +382,8 @@ margin-left: -7px;
     
    .none {
     display: none;
-   }
-   .fa-solid {
-    display: block !important;
-    float: left;
+   
+   
 }
    .nav-link2 #SignUp {
     margin: 5px 60px;
@@ -414,32 +391,30 @@ margin-left: -7px;
     top: 10px;
     left: 120px;
    }
-   .row {
-    display: flex;
-    flex-direction: column;
-   }
+   
    .column h1 {
     font-size: 19px;
     line-height: 30px;
     width: 300px;
     letter-spacing: 1px;
-    margin: -30px 5px 20px -44px;
+    margin: -30px 5px 20px 44px;
    }
+
    #email, #password, #SignIn {
     width: 270px;
-    margin-left: -43px;
+    margin-left: 44px;
     height: 40px;
    }
    .input2 p {
     width: 400px;
-    margin-left: -35px;
+    margin-left: 44px;
     font-size: 12px;
     margin-bottom: 20px;
    }
 
    .img2 {
-    width: 60%;
-    margin-left: -38px;
+    width: 78%;
+    margin-left: 44px;
    padding-top: ;
    }
 
@@ -448,9 +423,7 @@ margin-left: -7px;
    }
 
    .img2 p{
-    width: 550%;
-   margin-left: -180px;
-    
+   width: 300px; 
  }
   
 }
@@ -475,10 +448,10 @@ margin-left: -7px;
 
 /* footer-section */
 
-.img3  {
+.img3 {
     text-align: center;
     position: relative;
-    margin-right: 200px;
+    margin-right: 00px;
     color: rgba(21.06, 20.34, 56.79, 0.40); 
     font-size: 15px; 
     font-family: 'DM Sans' sans-serif; 
@@ -523,17 +496,16 @@ margin-left: -7px;
 }
 
 .img3{
-    margin-top: 75px;
-   
+    margin-top: 75px;  
 }
 
 #one {
-    width: 250%;
+    width: 100%;
 }
 
 #two {
-    width: 35%;
-    left: 105%;
+    width: 15%;
+    left: 45%;
     top: 35%;
 }
 
@@ -645,4 +617,66 @@ margin-left: -7px;
 .img4-one {
     max-width: 20px;
 }
+}
+
+
+.content17 {
+    background-image: url(./images/Image.png);
+    background-color: #1E0E62;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 30px;
+   
+
+}
+
+.box {
+    background: #482BE7;
+    height: 400px;
+}
+
+.content-text h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'DM Sans' sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.content-text p {
+    color: white;
+    font-family: 'DM Sans' sans-serif;
+    line-height: 28px;
+    word-wrap: break-word;
+    width: 100%;
+    opacity: 0.70; 
+}
+
+.content-text2 {
+    background: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.content-text2  p {
+    text-align: center;
+    padding: 36px;
+    width: 100%;
+    color: #482BE7;
+    font-size: 20px;
+    font-family: 'DM Sans' sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 992px) {
+    .content-text p {
+        width: 90%;
+    }
+    .content-text2 {
+     margin-top: 40px;
+    }
 }
